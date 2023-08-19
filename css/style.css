@@ -1,0 +1,71 @@
+/* estilos generales */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-mi{
+    height: 500px;
+    padding: 10px; 
+}
+
+.seccion-titulo{
+    font-size: 2rem;    
+    padding: 15px 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.secion-texto{
+    font-size: 1.2rem;
+    padding: 3px;
+}
+
+.contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+/* .contenedor p{
+    padding: 60px;
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    font-size: 2rem;
+} */
+
+.logo{
+    padding: 15px;
+    width: 8%;
+    border-radius: 5%;
+}
+
+.contenedor img{
+    width: 60%;
+    border-radius: 5%;
+}
+
+/* Barra de Navegación */
+.navbar{
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color:white;
+}
+
+.navbar-collapse{
+   align-items: center; 
+   justify-content: space-between;
+}
+
+.seccion-oscura{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(228, 228, 243);
+}
+
+/*Articulos*/
+.articulos{
+    min-height: 500px;
+    padding: 30px;
+}
